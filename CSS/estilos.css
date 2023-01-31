@@ -1,0 +1,379 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+:root{
+    --celeste: #00a7c7;
+    --arena: #ffd87d;
+    --marron: #8f7d75;
+    --negro: #000002; 
+    --naranja: #e76f3d;
+}
+
+
+header {
+    height: 500px;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment:fixed;
+}
+
+#logo_inicio{
+    font-weight: lighter;
+    font-size: 3em;
+    text-align: center;
+    color: var(--negro)  ;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+#barra{
+    width: 100%;
+    background-color: var(--celeste);
+    text-transform: capitalize;
+    text-align: center;
+    word-spacing: 18em;
+    height: 3em;
+    position: sticky;
+    top: 0px;
+    left: opx;
+    z-index: 100;
+}
+
+#barra li{
+    line-height: 3em;
+    display: inline-block;
+}
+#barra a:hover{
+    /* font-size: 1.2em; */
+    text-shadow: 0  0   5px var(--negro);
+    color: var(--arena);
+    /* text-decoration: underline; */
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+#sec1{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    z-index: 0;
+}
+
+.carru{
+    text-align: center;
+    padding: 30px;
+    background-color: var(--arena);
+}
+
+#img_central{
+    z-index: 10;
+}
+
+section #img_lateral{
+    height: 400px;
+    padding-bottom: 120px;  
+}
+
+.img1{
+    height: 500px;
+    background-image: url(../images/img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    
+}
+
+#sec2{
+    text-align: center;
+}
+
+#tabla1{
+    background-image: url(../images/img1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px -400px;
+    height: 600px;
+    padding-top: 10em;
+    padding-left: 13em;
+    z-index: 4;
+
+}
+
+#tabla1 table{
+    border-spacing: 5em;
+    
+}
+
+#tabla1 th{
+    background-color: white;
+    border: 5px solid var(--negro);
+    z-index: 4;
+}
+.item1 {
+    height: 160px;
+    width: 160px;
+}
+
+#vid1{
+    column-width: 600px;
+}
+
+/*#sep_blanco{
+    height: px;
+    background-color: white;
+    height: 300px;
+    z-index: 0;
+}*/
+
+
+
+#foot1{
+    background-color: var(--arena);
+    /* background-image: linear-gradient(var(--arena) 70%, var(--marron)); */
+    height: 100px;
+    color: white;
+    text-shadow: 0 0 3px var(--marron);
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    /* display: flex;
+    flex-direction: row-reverse;
+    align-content: space-between; */
+}
+
+
+#foot1 p{
+    /* margin-top: 40px; */
+}
+
+#social{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+    word-spacing: 15px;
+}
+#social li{
+    display: inline-block;
+}
+#social a{
+    color: white;
+    font-size: 25px;
+}
+#social a :hover{
+    /* font-size: 30px; */
+    transform: scale(1.3);
+    /* color: var(--naranja); */
+    text-shadow: 0 0 10px white;
+    /* text-shadow: 0 0 10px var(--marron); */
+}
+#fb :hover{
+    color: #1877f2;
+}
+#ig :hover{
+    color: #ff00ea;
+}
+#tw :hover{
+    color: #5cc6fe;
+}
+#social a :active{
+    transform: scale(1);
+}
+
+#foot2{
+    height: 10px;
+    background-color: var(--marron);
+}
+
+
+
+
+
+#logoKugas{
+    font-size: 60px;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 1100px;
+    font-weight: lighter;
+    display: inline-block;
+}
+#logoKugas a{
+    color: var(--negro);
+}
+
+#menu{
+    color: var(--negro);
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+#cuadros{
+    position: absolute;
+    top: 300px;
+}
+#cuadros h2{
+    margin-left: 40px;
+}
+#cuadros img{
+    border: 5px solid var(--negro);
+    margin: 70px;
+    margin-top: 40px;
+}
+#laminas{
+    position: absolute;
+    top: 1000px;
+    
+}
+/*.fondo{
+    background-image: url(../images/laminas.png);
+    height: 500px;
+
+}
+.separadorBlanco{
+    height: 200px;
+    background-color: white;
+}*/
+#laminas h2{
+    margin-left: 40px;
+}
+#laminas img{
+    border: 5px solid var(--negro);
+    margin: 70px;
+    margin-top: 40px;
+}
+#posters{
+    position: absolute;
+    top: 1700px;
+    
+}
+#posters h2{
+    margin-left: 40px;
+}
+#posters img{
+    border: 5px solid var(--negro);
+    margin: 70px;
+    margin-top: 40px;
+}
+#calcos{
+    position: absolute;
+    top: 2400px;
+    
+}
+#calcos h2{
+    margin-left: 40px;
+}
+#calcos img{
+    border: 5px solid var(--negro);
+    margin: 70px;
+    margin-top: 40px;
+}
+
+#footProd{
+    position: absolute;
+    top: 3000px;
+    width: 100%;
+}
+#catalogo{
+    text-align: center;  
+    position: absolute;
+    top: 400px;
+}
+#catalogo h2{
+    position: absolute;
+    top: -100px;
+    padding-left: 30px;
+}
+#catalogo img{
+    border: 5px solid var(--negro);
+    height: 330px;
+    width: auto; 
+    margin: 15px;
+}
+
+#footCat{
+    position: absolute;
+    top: 4200px;
+    width: 100%;
+}
+
+#corteNosotros{
+    height: 500px;
+    background-image: url(../images/fotoCorteNosotros.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -500px;
+
+}
+.nosotros{
+    text-align: center;
+    padding: 50px;
+    background-color: var(--arena);
+    font-weight: 1000;
+}
+
+#footNos{
+    border-top: 5px solid var(--marron);
+    margin-top: 10px;
+}
+
+input, textarea{
+    margin-right: 20px;
+}
+#consul{
+    width: 35%;
+    padding: 0%;
+    margin-left: 30px;
+    position: absolute;
+    top: 400px;
+    background-color: var(--arena);
+    text-align: left;
+}
+form{
+    text-align: right;
+}
+
+#envio{
+    width: 45%;
+    padding: 0%;
+    margin-left: 30px;
+    position: absolute;
+    top: 700px;
+    right: 0px;
+    background-color: var(--arena);
+    text-align: left;
+    margin-right: 50px;
+}
+#big{
+    width: 55%;
+    height: auto;
+    z-index: 4;
+    position: absolute;
+    top: 1000px;
+}
+#cont1{
+    width: 85%;
+    position: absolute;
+    top: 782px;
+    right: 0px;
+    z-index: 0;
+}
+
+#footCont{
+    position: absolute;
+    top: 1850px;
+    width: 100%;
+}
+
+.fondito{
+    background-color: var(--celeste);
+}
