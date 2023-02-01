@@ -74,57 +74,50 @@ header nav a:hover{
 
 #media{
     background-image: url(../images/img1.png);
-    height: 600px;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    padding: 0;
+    margin-top: 0;
 }
-.columna-media{
-    display: flex;
-    flex-direction: column;
+
+#in-media{
+    margin-top: 0;
+    height:600px;
 }
+
+
 .item{
-    padding: 50px;
-    height: 300px;
-}
-
-.borde{
-    border: 2px solid black;
-}
-
-.altura{
-    height: auto;
+    padding: 18%;
+    height: 50%;
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .item1{
     background-image: url(../images/logo_mp.png);
-    background-size: 200px auto;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 .item2{
     background-image: url(../images/tarjeta.png);
-    background-size: 200px auto;
-    background-repeat: no-repeat;
-    background-position: center;
+    ;
 }
 .item3{
     background-image: url(../images/envio.png);
-    background-size: 200px auto;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 .item4{
     background-image: url(../images/carrito.png);
-    background-size: 200px auto;
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 #video{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
+    padding: 5%;
 }
 
 /* footer */
@@ -132,15 +125,21 @@ header nav a:hover{
 footer{
     height: 150px;
     background-color: var(--arena);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #copy p{
+    color: white;
+    text-shadow: 0 0 3px var(--marron);
     text-align: end;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 #social{
-    text-align: left;
-    padding-top: 30px;
+    padding-top: 80px;
     padding-left: 20px;
     word-spacing: 15px;
 }
@@ -184,3 +183,4 @@ footer{
     }
     
 }
+
