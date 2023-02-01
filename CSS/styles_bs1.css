@@ -94,8 +94,28 @@ nav a:hover{
 
 #f-icon{
     background-color: var(--celeste);
-    height: 600px;
+    height: 700px;
 }
+
+.f-icon-centro{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.f-mp{
+    background-image: url(../images/logo_mp.png);
+}
+.f-carri{
+    background-image: url(../images/carrito.png);
+}
+.f-tarj{
+    background-image: url(../images/tarjeta.png);
+}
+.f-camio{
+    background-image: url(../images/envio.png);
+}
+
 
 /* Media querries */
 
