@@ -1,6 +1,4 @@
 *{
-    margin:0px;
-    padding: 0px;
     font-family: 'Poppins', sans-serif;
     /* box-sizing: border-box; */
 }
@@ -377,3 +375,4 @@ form{
 .fondito{
     background-color: var(--celeste);
 }
+
