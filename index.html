@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="CSS/estilos.css">
-    
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/style_bs.css">
+
     <title>KUGAS · DESIGN</title>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <p id="logo_inicio">KUGAS · DESIGN</p>
         <nav id="barra">
             <ul>
@@ -34,7 +35,7 @@
         <div class="img1"></div>
     </aside>
     -->
-    <section id="sec2">
+    <!--<section id="sec2">
         <article id="tabla1">
             <table>
                 <tr>
@@ -49,7 +50,7 @@
                 <!--<tr><img src="images/carrito.png" alt=""></tr>
                 <tr><img src="images/envio.png" alt=""></tr>
                 <tr><video src=""></video></tr>-->
-            </table>
+            <!--</table>
         </article>
         <article id="sep_blanco">
             <div></div>
@@ -66,7 +67,127 @@
             </ul>
         </div>
         <div id="foot2"></div>
-    </footer>
+    </footer> -->
+
+    <!-- header start -->
+    <header class="container.fluid">
+        <h1>KUGAS · DESIGN</h1>                 
+        <div class="container.fluid ">
+              <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse f_navbar" id="collapsibleNavbar">
+                  <ul class="navbar-nav ">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>    
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>    
+                  </ul>
+                </div>  
+              </nav>
+            </div>                         
+    </header>
     
+    <!-- header end -->
+
+    
+
+    <Main class="container.fluid">
+
+        <!-- Carrusel start -->
+
+        <section class="container.fluid carrusel">
+            <div class="container">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/carru1.1.png" alt="Los Angeles" width="100%" height="auto">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/Carru2.1.png" alt="Chicago" width="100%" height="auto">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/Carru3.1.png" alt="New York" width="100%" height="auto">
+                      </div>
+                    </div>
+                    
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+            </div>
+        </section>
+
+        <!-- Carrusel end -->
+
+        <!-- Media start -->
+
+        <section class="container.fluid">
+            <div id="media" class="row">
+                <div class="col-3">
+                    <div class="item item1 "></div>
+                    <div class="item item2 "></div>
+                </div>
+                <div class="col-3 ">
+                    <div class="item item3 "></div>
+                    <div class="item item4 "></div>
+                </div>
+                <div class="col-6 " id="video">
+                    <iframe width="800" height="500" src="https://www.youtube.com/embed/hR65-9__gc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Media END -->
+    </Main>
+
+    <!-- footer start -->
+
+    <footer class="container.fluid row">
+        <div class="col-6">
+            <ul id="social">
+                <li><a href="https://www.instagram.com/" id="ig"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/" id="tw"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/" id="fb"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-6" id="copy">
+            <p>Todos los derechos reservados por copyright ©</p>
+        </div>
+        
+    </footer>
+
+    <!-- footer end -->
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
 </body>
 </html>
