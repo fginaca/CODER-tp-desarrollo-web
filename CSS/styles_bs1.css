@@ -154,10 +154,13 @@ nav a:hover{
 
 @media (max-width: 575px){
     .carrusel{
-        height: 20rem;
+        height: 20rem !important;
     }
     #f-icon{
         height: 400px;
+    }
+    .carru-mov{
+        width: 90vw;
     }
 }
 
@@ -185,6 +188,9 @@ nav a:hover{
         height: 50rem;
     }
     .d-head{
+        height: 30rem;
+    }
+    .carrusel{
         height: 30rem;
     }
 }
