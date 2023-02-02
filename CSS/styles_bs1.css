@@ -139,8 +139,27 @@ nav a:hover{
     background-image: url(../images/envio.png);
 }
 
-.m-0{
+.f-vid{
     height: 100%;
+}
+
+/* footer */
+
+footer{
+    background-image: linear-gradient(to bottom, var(--arena) 90%, var(--marron) 10%);
+    height: 10vw;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 0 0 5px var(--marron);
+}
+
+footer p{
+    font-size: 1.5vw;
+    text-align: end;
+}
+.icono{
+    padding: 5px ;
+    padding-bottom: 2vw;
 }
 
 /* Media queries */
@@ -174,11 +193,33 @@ nav a:hover{
     .carrusel{
         height: 20rem !important;
     }
+    .icono{
+        padding: 0;
+        padding-top: 5px;
+    }
+    footer{
+        font-size: 20px;
+        line-height: 22px;
+    }
 }
 
 @media (max-width: 820px){
     .carrusel{
         height: 30rem;
+    }
+    
+    footer{
+        font-size: 5vw;
+        padding-top: 1vw;
+    }
+
+    footer p{
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    .icono{
+        padding: 1vw ;
+        padding-bottom: 3vw;
     }
 }
 @media (max-width: 1023px){
@@ -201,5 +242,3 @@ nav a:hover{
         height: 30rem;
     }
 }
-@media (max-width: 1920px){
-    
