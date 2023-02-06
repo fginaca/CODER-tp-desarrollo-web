@@ -10,67 +10,78 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/styles_bs1.css">
+
+    <link rel="stylesheet" href="../CSS/styles_bs1.css">
     <title>KUGAS · DESIGN</title>
 </head>
     <body>
-        <header>
-            <div>
-                <span id="menu"><i class="fa-solid fa-bars"></i></span>
-                <h1 id="logoKugas"><a href="../index.html">KUGAS</a></h1>
+    <!-- header start -->
+
+    <header class="container-fluid">
+        <div class="container-fluid m-head d-block d-lg-none">
+            <div class="container- fluid row">
+                <div class="col-8  col-sm-7">
+                </div>
+                <div class="m-titulo col-4  col-sm-5">
+                    <h1>KUGAS · DESIGN</h1>
+                </div>
             </div>
-            
-        </header>
-        <section>
-            <article id="cuadros">
-                <h2>CUADROS</h2>
-                <div>
-                    <img src="../images/cuadros.png" alt="">
-                    <img src="../images/cuadros.png" alt="">
-                    <img src="../images/cuadros.png" alt="">
-                </div>
-                <div class="separadorBlanco"></div>
-            </article>
-            <article id="laminas">
-                <div class="fondo"></div>
-                <div class="cont">
-                    <h2>LAMINAS</h2>
-                    <div>
-                        <img src="../images/cuadros.png" alt="">
-                        <img src="../images/cuadros.png" alt="">
-                        <img src="../images/cuadros.png" alt="">
-                    </div>
-                </div>
-                <div class="separadorBlanco"></div>
-            </article>
-            <article id="posters">
-                <h2>POSTERS</h2>
-                <div>
-                    <img src="../images/cuadros.png" alt="">
-                    <img src="../images/cuadros.png" alt="">
-                    <img src="../images/cuadros.png" alt="">
-                </div>
-            </article>
-            <article id="calcos">
-                <h2>CALCOS</h2>
-                <div>
-                    <img src="../images/cuadros.png" alt="">
-                    <img src="../images/cuadros.png" alt="">
-                    <img src="../images/cuadros.png" alt="">
-                </div>
-            </article>
-        </section>
+        </div>
+        <div class="container-fluid d-none d-lg-block d-head">
+            <div class="align-items-center">
+                <h1>KUGAS · DESIGN</h1>
+            </div>
+        </div>
+    
+    </header>
+
+    <!-- header end -->
+
+     <!-- navbar start -->
+
+     <nav class="navbar navbar-expand-lg bg-dark sticky-top" >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse centrar" id="collapsibleNavbar">
+            <ul class="navbar-nav centrar">
+                <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/diseños.html">Diseños</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                </li>    
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>    
+            </ul>
+        </div>  
+    </nav>
+
+
+
+<!-- navbar end -->
+
+<!-- cuadros -->
+<div class="container-fluid" id="cuadros">
+    <div class="container-fluid d-flex justify-content-end mt-5 mb-2">
+        <h2>Cuadros</h2>
+    </div>
+    <div class="container-fluid row m-0 p-0" >
+        <div class="container col-12 col-sm-6 col-md-4 d-flex justify-self-center justify-content-center">
+            <img src="../images/cuadros.png" alt="cuadros">
+        </div>
+        <div class="container col-12 col-sm-6 col-md-4 d-flex justify-self-center justify-content-center">
+            <img src="../images/cuadros.png" alt="cuadros"></div>
+        <div class="container col-12 col-sm-6 col-md-4 d-flex justify-self-center justify-content-center">
+            <img src="../images/cuadros.png" alt="cuadros"></div>
+    </div>
+</div>
         
-        <footer id="footProd">
-            <div id="foot1">
-                <p>Todos los derechos reservados por copyright ©</p>
-                <ul id="social">
-                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
-                </ul>
-            </div>
-            <div id="foot2"></div>
-        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     </body>
 </html>

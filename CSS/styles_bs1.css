@@ -3,185 +3,198 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* index */
+    :root{
+        --celeste: #00a7c7;
+        --arena: #ffd87d;
+        --marron: #8f7d75;
+        --negro: #000002; 
+        --naranja: #e76f3d;
+    }
 
-:root{
-    --celeste: #00a7c7;
-    --arena: #ffd87d;
-    --marron: #8f7d75;
-    --negro: #000002; 
-    --naranja: #e76f3d;
-}
+    /* Header */
 
-/* Header */
+    header{
+        padding: 0 !important; 
+    }
 
-header{
-    padding: 0 !important; 
-}
-
-.m-head{
-    background-image: url(../images/header.png);
-    background-size: auto 15rem ;
-    background-repeat: no-repeat;
-    height:15rem;
-    background-position-x:center ;
-    background-position-y:-00px ;
-    background-attachment: fixed;
-}
+    .m-head{
+        background-image: url(../images/header.png);
+        background-size: auto 15rem ;
+        background-repeat: no-repeat;
+        height:15rem;
+        background-position-x:center ;
+        background-position-y:-00px ;
+        background-attachment: fixed;
+    }
 
 
-h1{
-    font-size: 16px;
-    padding-top: 50px;
-    text-align: center;
-    font-weight: bold;
-}
+    h1{
+        font-size: 16px;
+        padding-top: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
 
-.d-head{
-    background-image: url(../images/header.png);
-    background-size: 1920px auto;
-    background-repeat: no-repeat;
-    height: 35rem;
-    background-position-x:center ;
-    background-position-y:0px ;
-    background-attachment: fixed;
-    background-color: rgb(184, 184, 184);
-}
+    .d-head{
+        background-image: url(../images/header.png);
+        background-size: 1920px auto;
+        background-repeat: no-repeat;
+        height: 35rem;
+        background-position-x:center ;
+        background-position-y:0px ;
+        background-attachment: fixed;
+        background-color: rgb(184, 184, 184);
+    }
 
-/* navbar */
+    /* navbar */
 
-.navbar{
-    background-color: var(--celeste) !important;
-    /* height: 8vh; */
-    /* padding: 0 !important; */
-}
+    .navbar{
+        background-color: var(--celeste) !important;
+        /* height: 8vh; */
+        /* padding: 0 !important; */
+    }
 
-.navbar a{
-    color: white;
-    font-weight: 550;
-    font-size: 100%;
-    margin: 0 60px;
-   
-}
-
-.centrar{
-    /* display: flex !important;
-    flex-direction: row !important; */
-    justify-content: space-evenly !important;
-}
-.navbar div ul{
-    justify-content: center !important;
-}
-
-nav a:hover{
-    text-shadow: 0  0   5px var(--negro);
-    color: var(--arena) !important;
-}
-
-.fa-solid{
-    color: white;
-    /* line-height: 2px; */
-}
-
-/* Carusel */
-
-.carrusel{
-    background-color: var(--arena);
-    padding: 2%;
-    height: 35rem;
-}
-
-.carrusel-tam{
-    height: 100%;
-    display: flex !important;
-}
-
-.carousel-item {
-    width: 100%;
-    height: 77rem;
-    align-self: center !important;
-}
-
-/* iconos */
-
-#f-icon{
-    background-image: url(../images/img1.png);
-    background-size: cover;
-    background-position-y: 0px ;
-    background-attachment: fixed;
-    height: 800px;
-    height: 35vw;
-    padding: 5% 10% !important;
-    margin: 0;
-
+    .navbar a{
+        color: white;
+        font-weight: 550;
+        font-size: 100%;
+        margin: 0 60px;
     
-}
+    }
 
-.f-icon-centro{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center ;
-}
+    .centrar{
+        /* display: flex !important;
+        flex-direction: row !important; */
+        justify-content: space-evenly !important;
+    }
+    .navbar div ul{
+        justify-content: center !important;
+    }
 
-.h50{
-    height: 50%;
-}
+    nav a:hover{
+        text-shadow: 0  0   5px var(--negro);
+        color: var(--arena) !important;
+    }
 
-.f-mp{
-    background-image: url(../images/logo_mp.png);
-}
-.f-carri{
-    background-image: url(../images/carrito.png);
-}
-.f-tarj{
-    background-image: url(../images/tarjeta.png);
-}
-.f-camio{
-    background-image: url(../images/envio.png);
-}
+    .fa-solid{
+        color: white;
+        /* line-height: 2px; */
+    }
 
-.f-vid{
-    height: 100%;
-}
+    /* Carusel */
 
-/* footer */
+    .carrusel{
+        background-color: var(--arena);
+        padding: 2%;
+        height: 35rem;
+    }
 
-footer{
-    background-image: linear-gradient(to bottom, var(--arena) 90%, var(--marron) 10%);
-    height: 7vw;
-    font-size: 2vw;
-    color: white;
-    text-shadow: 0 0 5px var(--marron);
-}
+    .carrusel-tam{
+        height: 100%;
+        display: flex !important;
+    }
 
-footer p{
-    font-size: 1vw;
-    text-align: end;
-}
-.icono{
-    padding: 5px ;
-    padding-bottom: 2vw;
-}
-#social a{
-    color: white;
-}
-#social a :hover{
-    transform: scale(1.3);
-    text-shadow: 0 0 10px white;
-}
-#fb :hover{
-    color: #1877f2;
-}
-#ig :hover{
-    color: #ff00ea;
-}
-#tw :hover{
-    color: #5cc6fe;
-}
-#social a :active{
-    transform: scale(1);
-    text-shadow: 0 0 5px var(--marron);
-}
+    .carousel-item {
+        width: 100%;
+        height: 77rem;
+        align-self: center !important;
+    }
 
+    /* iconos */
+
+    #f-icon{
+        background-image: url(../images/img1.png);
+        background-size: cover;
+        background-position-y: 0px ;
+        background-attachment: fixed;
+        height: 800px;
+        height: 35vw;
+        padding: 5% 10% !important;
+        margin: 0;
+
+        
+    }
+
+    .f-icon-centro{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
+
+    .h50{
+        height: 50%;
+    }
+
+    .f-mp{
+        background-image: url(../images/logo_mp.png);
+    }
+    .f-carri{
+        background-image: url(../images/carrito.png);
+    }
+    .f-tarj{
+        background-image: url(../images/tarjeta.png);
+    }
+    .f-camio{
+        background-image: url(../images/envio.png);
+    }
+
+    .f-vid{
+        height: 100%;
+    }
+
+    /* footer */
+
+    footer{
+        background-image: linear-gradient(to bottom, var(--arena) 90%, var(--marron) 10%);
+        height: 7vw;
+        font-size: 2vw;
+        color: white;
+        text-shadow: 0 0 5px var(--marron);
+    }
+
+    footer p{
+        font-size: 1vw;
+        text-align: end;
+    }
+    .icono{
+        padding: 5px ;
+        padding-bottom: 2vw;
+    }
+    #social a{
+        color: white;
+    }
+    #social a :hover{
+        transform: scale(1.3);
+        text-shadow: 0 0 10px white;
+    }
+    #fb :hover{
+        color: #1877f2;
+    }
+    #ig :hover{
+        color: #ff00ea;
+    }
+    #tw :hover{
+        color: #5cc6fe;
+    }
+    #social a :active{
+        transform: scale(1);
+        text-shadow: 0 0 5px var(--marron);
+    }
+
+/* Productos */
+    /* header */
+
+    .headerSecundario{
+        height: 50vw;
+        background-image: url(../images/header.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Navbar desplegable */
+
+      
 
 /* Media queries */
 
