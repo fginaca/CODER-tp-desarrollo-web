@@ -148,13 +148,13 @@ nav a:hover{
 footer{
     background-image: linear-gradient(to bottom, var(--arena) 90%, var(--marron) 10%);
     height: 7vw;
-    font-size: 3vw;
+    font-size: 2vw;
     color: white;
     text-shadow: 0 0 5px var(--marron);
 }
 
 footer p{
-    font-size: 1.5vw;
+    font-size: 1vw;
     text-align: end;
 }
 .icono{
