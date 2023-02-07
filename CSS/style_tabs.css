@@ -1,5 +1,5 @@
 *{
-    margin: 0 !important;
+    /* margin: 0 !important; */
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -101,7 +101,44 @@
                 background-color: var(--naranja);
             }
 
-    
+     /* footer */
+
+     footer{
+        background-image: linear-gradient(to bottom, var(--arena) 90%, var(--marron) 10%);
+        height: 7vw;
+        font-size: 2vw;
+        color: white;
+        text-shadow: 0 0 5px var(--marron);
+    }
+
+    footer p{
+        font-size: 1vw;
+        text-align: end;
+    }
+    .icono{
+        padding: 5px ;
+        padding-bottom: 2vw;
+    }
+    #social a{
+        color: white;
+    }
+    #social a :hover{
+        transform: scale(1.3);
+        text-shadow: 0 0 10px white;
+    }
+    #fb :hover{
+        color: #1877f2;
+    }
+    #ig :hover{
+        color: #ff00ea;
+    }
+    #tw :hover{
+        color: #5cc6fe;
+    }
+    #social a :active{
+        transform: scale(1);
+        text-shadow: 0 0 5px var(--marron);
+    }
 
     /* Media queries */
 
@@ -156,7 +193,7 @@
     }
 
     footer p{
-        font-size: 3vw;
+        font-size: 2.5vw;
         line-height: 3vw;
     }
     .icono{
