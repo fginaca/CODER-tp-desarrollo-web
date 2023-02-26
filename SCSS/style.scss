@@ -1,12 +1,11 @@
-$celeste: #00a7c7;
-$arena: #ffd87d;
-$marron: #8f7d75;
-$negro: #000002; 
-$naranja: #e76f3d;
+@import 'config';
+@import 'inicio';
+@import 'productos';
+@import 'designs';
+@import 'nosotros';
+@import 'contacto';
 
-*{
-    font-family: 'Poppins', sans-serif;
-}
+
 
 
 /* Productos */

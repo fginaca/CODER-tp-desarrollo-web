@@ -110,7 +110,7 @@ nav a:hover {
 
 /* contenido productos */
 #contenidoProductos {
-  background-image: linear-gradient(220deg, #ffd87d, #e76f3d);
+  background-image: linear-gradient(220deg, #ffd87d, #b15d3a);
 }
 
 img {
@@ -121,7 +121,7 @@ img {
 /* Diseños */
 /* galeria */
 #galeria {
-  background-image: linear-gradient(135deg, #e76f3d, #8f7d75);
+  background-image: linear-gradient(135deg, #b15d3a, #8f7d75);
 }
 
 /* footer */
@@ -163,7 +163,7 @@ footer #social a :active {
 
 /* Nosotros */
 .fondoArena {
-  background-image: linear-gradient(140deg, #e76f3d, #ffd87d, #00a7c7);
+  background-image: linear-gradient(140deg, #b15d3a, #ffd87d, #00a7c7);
 }
 .fondoArena #espaciador1 {
   height: 50vw !important;
