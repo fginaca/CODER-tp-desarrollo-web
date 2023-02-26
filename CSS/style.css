@@ -3,7 +3,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Productos */
 /* Header */
 header {
   padding: 0 !important;
@@ -58,6 +57,43 @@ h1 {
 nav a:hover {
   text-shadow: 0 0 5px #000002;
   color: #ffd87d !important;
+}
+
+/* footer */
+footer {
+  background-image: linear-gradient(to bottom, #ffd87d 90%, #8f7d75 10%);
+  height: 7vw;
+  font-size: 2vw;
+  color: white;
+  text-shadow: 0 0 5px #8f7d75;
+}
+footer p {
+  font-size: 1vw;
+  text-align: end;
+}
+footer .icono {
+  padding: 5px;
+  padding-bottom: 2vw;
+}
+footer #social a {
+  color: white;
+}
+footer #social a :hover {
+  transform: scale(1.3);
+  text-shadow: 0 0 10px white;
+}
+footer #social #fb :hover {
+  color: #1877f2;
+}
+footer #social #ig :hover {
+  color: #ff00ea;
+}
+footer #social #tw :hover {
+  color: #5cc6fe;
+}
+footer #social a :active {
+  transform: scale(1);
+  text-shadow: 0 0 5px #8f7d75;
 }
 
 /* Carusel */
@@ -122,43 +158,6 @@ img {
 /* galeria */
 #galeria {
   background-image: linear-gradient(135deg, #b15d3a, #8f7d75);
-}
-
-/* footer */
-footer {
-  background-image: linear-gradient(to bottom, #ffd87d 90%, #8f7d75 10%);
-  height: 7vw;
-  font-size: 2vw;
-  color: white;
-  text-shadow: 0 0 5px #8f7d75;
-}
-footer p {
-  font-size: 1vw;
-  text-align: end;
-}
-footer .icono {
-  padding: 5px;
-  padding-bottom: 2vw;
-}
-footer #social a {
-  color: white;
-}
-footer #social a :hover {
-  transform: scale(1.3);
-  text-shadow: 0 0 10px white;
-}
-footer #social #fb :hover {
-  color: #1877f2;
-}
-footer #social #ig :hover {
-  color: #ff00ea;
-}
-footer #social #tw :hover {
-  color: #5cc6fe;
-}
-footer #social a :active {
-  transform: scale(1);
-  text-shadow: 0 0 5px #8f7d75;
 }
 
 /* Nosotros */

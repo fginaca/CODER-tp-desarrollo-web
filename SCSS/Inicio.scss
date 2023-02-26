@@ -1,0 +1,50 @@
+/* Carusel */
+
+.carrusel{
+    background-color: $arena;
+    padding: 2%;
+    height: 35rem;
+
+    .carrusel-tam{
+        height: 100%;
+        display: flex !important;
+        .carousel-item {
+            width: 100%;
+            height: 77rem;
+            align-self: center !important;
+        }
+    }
+}
+
+/* iconos */
+
+#f-icon{
+    background-image: url(../images/img1.png);
+    background-size: cover;
+    background-position-y: 0px ;
+    background-attachment: fixed;
+    height: 800px;
+    height: 35vw;
+    padding: 5% 10% !important;
+    margin: 0;
+    .f-icon-centro{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
+    .h50{
+        height: 50%;
+    }
+    .f-mp{
+        background-image: url(../images/logo_mp.png);
+    }
+    .f-carri{
+        background-image: url(../images/carrito.png);
+    }
+    .f-tarj{
+        background-image: url(../images/tarjeta.png);
+    }
+    .f-camio{
+        background-image: url(../images/envio.png);
+    }
+}

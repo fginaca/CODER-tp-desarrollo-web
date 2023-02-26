@@ -1,0 +1,14 @@
+/* Nosotros */
+
+.fondoArena{
+    background-image: linear-gradient(140deg, $naranja, $arena, $celeste);
+
+    #espaciador1{
+        height: 50vw !important;
+        background-image: url(../images/render/31.png);
+        background-attachment: fixed;
+        background-position-y: -45vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
